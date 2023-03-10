@@ -337,6 +337,45 @@
   }
   
   @media(max-width: 800px) {  
+
+    .side{
+      display: flex;
+      align-items: right;
+      justify-content: right;
+      margin-top: 11px;
+      margin-left: -15px;
+    }
+
+    .side2{
+      display:none;
+    font-size: xx-small;
+      margin-top: -75px;
+      margin-right: 35px;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: center;
+
+    }
+
+    .side3{
+      display: flex;
+      align-items: right;
+      justify-content: right;
+      margin-top: -15px;
+      margin-left: -625px;
+      font-size: 6px;
+    }
+
+    .fonts{
+      font-family: 'Climate Crisis', cursive;
+      font-size: 10px;
+    }
+
+    .centa{
+      text-align: center;
+    }
+
+
     nav {
       justify-content: space-between;  
     }
@@ -373,22 +412,29 @@
     } 
     
     #nav-toggle-button {
-      display: flex;
+      display: none;
+
     }  
     
     #nav-link-section {
       flex-basis: 60%;
-      flex-direction: column;
+      flex-direction: row;
       gap: 4rem;
     }
     
     #nav-link-section > a {
-      font-size: 3rem; 
+      font-size: 10px; 
+      text-align: right;
+      display: flex;
     }
     
     #nav-social-section > a {
-      font-size: 2rem; 
-    }  
+      font-size: 1rem; 
+      margin-left: -80px;
+      display: flex;
+    } 
+    
+    
     
     #nav-contact-section {
       padding-bottom: 4rem;
@@ -437,3 +483,6 @@
 
   .fa-dumpster-fire:before {
     content: "\f794";}
+
+  
+    
