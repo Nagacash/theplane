@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: rgb(201, 89, 89);
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ nav {
   display: flex;
   width: 100%;
   border-bottom: 1px solid var(--border-color);
-  background-color: rgb(226, 166, 226);
+  background-color: rgb(17, 17, 17);
 
 }
 
@@ -176,7 +176,7 @@ main>article>.article-nav-section {
 }
 
 main>article:first-child>.article-image-section {
-  background-image: url("https://images.unsplash.com/photo-1551529663-e4327b8fc96c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjI1fHxjbHVifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-image: url("https://images.unsplash.com/photo-1579125305607-15279d30d370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 }
 
 main>article:nth-child(2)>.article-image-section {
@@ -286,6 +286,16 @@ main>article>.article-nav-section>.article-nav-button:nth-child(2) {
 
 .fonts {
   font-family: 'Climate Crisis', cursive;
+}
+
+.fonts2 {
+  font-family: 'Climate Crisis', cursive;
+  font-size: 12px;
+}
+
+.centa{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media(max-width: 1200px) {
