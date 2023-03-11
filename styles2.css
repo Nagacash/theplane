@@ -277,6 +277,8 @@
       .fonts{
         font-family: 'Climate Crisis', cursive;
       }
+
+      
   
   @media(max-width: 1200px) {    
     #nav-mobile-section {
@@ -362,13 +364,13 @@
       align-items: right;
       justify-content: right;
       margin-top: -15px;
-      margin-left: -625px;
+      margin-left: 25px;
       font-size: 6px;
     }
 
     .fonts{
       font-family: 'Climate Crisis', cursive;
-      font-size: 10px;
+      font-size: 30px;
     }
 
     .centa{
