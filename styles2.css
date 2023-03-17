@@ -169,7 +169,7 @@
   }
   
   main > article:first-child > .article-image-section {
-    background-image: url("./images/10.jpg");
+    background-image: url("./images/12.jpg");
   }
   
   main > article:nth-child(2) > .article-image-section {
